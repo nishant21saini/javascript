@@ -1,0 +1,22 @@
+/* => primitive datatype
+7 types: 
+string number null boolean undefined symbol BigInt
+
+=> (non primitive) Reference 
+ array objects functions 
+
+objects -> key-value pair
+typeof val -> return result  
+
+
+ SYMBOL -> these always return different values for same input
+ const id = Symbol("123");
+const anotherId = Symbol("123");
+console.log(id === anotherId); => output false 
+type of. val||result
+undefined   ||undefined
+null      ||objects   
+
+
+*/
+ 
